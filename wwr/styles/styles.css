@@ -1,5 +1,61 @@
 /* id elements here */
 
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto&display=swap');
+
+
+:root {
+  
+  --headline-font: Helvetica, sans-serif, "Roboto";
+  --body: "Roboto", sans-serif, Helvetica;
+  --home-title: Helvetica, sans-serif, "Roboto";
+  --h2: Helvetica, sans-serif, "Roboto";
+
+  
+
+  --primary-color: #0fa3b1   ;
+  --secondary-color: #01295f ;
+  --accent1-color: #aa9aba;
+  --accent2-color: #721817;  
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-color: #01295f; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #01295f; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #0fa3b1  ;
+  --nav-link-color: #0fa3b1;
+  --nav-background-color: #01295f;
+  --nav-hover-link-color: #721817;
+  --nav-hover-background-color: #0fa3b1;
+}
+
+body {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: #721817;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -43,10 +99,6 @@ nav a:hover
 footer
  */
 
-body {
-    background-color: #fcfbfb; 
-}
-
 header {
     background-color: #0fa3b1;
 }
@@ -57,6 +109,13 @@ nav a:hover {
 
 .book, .join {
     background-color: #aa9aba; 
+    font-size: 18px;
+    margin-top: 50px;
+    color: #000000;
+    text-align: center; 
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -67,13 +126,10 @@ nav a:hover {
     background-color: #aa9aba; 
 }
 
-.msg {
-    background-color: #fcfbfb; 
+footer .social img {
+    padding-top: 15px;
 }
-
-footer {
-    background-color: #aa9aba; 
-}
+    
 
 /*  nav a
 nav a:hover
@@ -91,15 +147,7 @@ nav a:hover {
     color: #721817;
 }
 
-.home-title {    
-    color: #721817;
-}
-
 h4 {    
-    color: #721817;
-}
-
-.book, .join {    
     color: #721817;
 }
 
@@ -113,15 +161,18 @@ h4 {
 
 .msg p {    
     color: #721817;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {    
     color: #721817;
+    padding: 25px 50px;
+    background-color: #aa9aba; 
+    margin-top: 200px;
+
 }
 
-footer a {    
-    color: #721817;
-}
 
 footer a:hover {    
     color: #721817;
@@ -133,8 +184,14 @@ footer a:hover {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+
 }
 
 #hero-img {
@@ -147,12 +204,8 @@ nav a {
     text-align: center; 
     color: #000000;
     text-decoration: none;
-}
-
-.book, .join {
-    text-align: center; 
-    color: #000000;
-    text-decoration: none;
+    padding: 35px; 
+    text-align: center;
 }
 
 footer a {
@@ -169,27 +222,15 @@ footer p a:hover {
     text-decoration: underline;
 }   
 
-/*
-
-* {
-    border: 2px steelblue;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
-nav, footer {
-    background-color: steelblue;
-    color: white;
-    text-align: center;
-    padding: 10px;
+.card-img {
+    border: 10px solid black;
 }
 
-footer p {
-    font-size: 20px;
-    margin: 20px auto;
+main section img {
+    box-sizing: border-box;
 }
 
-a:hover {
-    background-color: white;
-    color: steelblue;
-
-
-*/
