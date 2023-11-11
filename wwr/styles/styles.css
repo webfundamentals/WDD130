@@ -293,7 +293,25 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 
 }
-  
+
+/*  FAQs CSS  */
+.faqs-img {
+    height: 50%;
+    width: 50%;
+    float: right
+    
+}
+
+.faqs-h3 {
+    float: left;
+    align-items: flex-end;
+}
+
+.faqs-content {
+    float: left;
+}
+
+
 /* 7. Responsive design */ 
 
 @media screen and (max-width: 900px) {
