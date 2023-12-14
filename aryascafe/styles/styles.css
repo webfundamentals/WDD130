@@ -259,6 +259,51 @@ footer a {
     width: 50%;
   }
 
+  /* FAQs */
+
+  #faqs-content {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+  .content_main {
+    position: relative;
+    float: left;
+  }
+
+  .content_main p {
+    margin-bottom: 20px;
+  }
+  .content_main h5 {
+    margin-bottom: 20px;
+  }
+
+.faqs-intro img {
+  height: 10%;
+  width: 30%;
+}
+
+  .faqs-img {
+    height: 10%;
+    width: 10%;
+    float: right
+    
+}
+
+.faqs-intro h3 {
+
+    float: left;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.content_main img {
+     width: 30%;
+     height: 30%;
+}
+
+
 .book, .join {
   background-color: #aa9aba; 
   font-size: 18px;
