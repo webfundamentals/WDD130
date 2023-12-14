@@ -453,6 +453,19 @@ main section img {
   float: left;
 }
 
+/* About Us CSS */
+
+.paragraph-about-about {
+  border: 5px solid #ccc;
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.paragraph-about-about p {
+  font-size: 120%;
+}
+
 /* Working with HTML forms */
 
 form {
@@ -463,6 +476,8 @@ form {
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
+  margin-top: 150px;
+  margin-bottom: 150px; 
 }
 
 ul {
@@ -529,7 +544,8 @@ button {
   right: 0;
   padding: .5em;
   /* make this element invisible until we are ready for it */
-  display: none;      
+  display: none;    
+ 
 }
 .moveDown {
   margin-top: 3em;
