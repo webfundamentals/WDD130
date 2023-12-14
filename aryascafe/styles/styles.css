@@ -204,6 +204,60 @@ footer a {
   margin: 0 10px; /* Optional margin around links */
 }
 
+#menu-content {
+  text-align: center;
+}
+
+.menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 3px solid black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px; /* Optional: Add rounded corners to images */
+}
+
+#menu-portion {
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Gap between grid items */
+}
+
+.light_meals, .beverages {
+  border: 3px solid black;
+
+}
+
+.light_meals h2,
+.beverages h2{
+  text-align: center;
+}
+
+.light_meals li,
+.beverages li{
+  text-align: left;
+}
+
+.light_meals img {
+  max-width: 100%;
+  height: 200%;
+  border-radius: 8px; /* Optional: Add rounded corners to images */
+}
+
+.light_meals img {
+    height: 50%;
+    width: 50%;
+  }
+
+  .beverages img {
+    height: 50%;
+    width: 50%;
+  }
 
 .book, .join {
   background-color: #aa9aba; 
